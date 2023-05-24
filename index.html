@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator-box">
+        <div class="display">
+          <input type="text" id="display" />
+        </div>
+        <div class="buttons">
+          <div class="numbers">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="confirm">=</button>
+          </div>
+          <div class="numbers">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+          </div>
+          <div class="numbers">
+            <button>3</button>
+            <button>2</button>
+            <button>1</button>
+          </div>
+          <div class="numbers">
+            <button>0</button>
+            <button>.</button>
+            <button>+</button>
+          </div>
+          <div class="operators">
+            <button>-</button>
+            <button>*</button>
+            <button>/</button>
+            <button id="clear">C</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
+<!-- <!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calculator-box button, .calculator-box input {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.calculator-box {
+    display: grid;
+    grid-template-areas:
+    "dis dis dis dis"
+    "b7 b8 b9 E"
+    "b4 b5 b6 E"
+    "b1 b2 b3 E"
+    "b0 dot pls E"
+    "mns mul div C";
+    grid-template-rows: repeat(6, 60px);
+    grid-template-columns: repeat(4, 60px);
+}
+.display {
+    grid-area: dis;
+}
+.box-0 {
+    grid-area: b0;
+}
+.box-1 {
+    grid-area: b1;
+}
+.box-2 {
+    grid-area: b2;
+}
+.box-3 {
+    grid-area: b3;
+}
+.box-4 {
+    grid-area: b4;
+}
+.box-5 {
+    grid-area: b5;
+}
+.box-6 {
+    grid-area: b6;
+}
+.box-7 {
+    grid-area: b7;
+}
+.box-8 {
+    grid-area: b8;
+}
+.box-9 {
+    grid-area: b9;
+}
+.box-e {
+    grid-area: E;
+}
+.box-dot {
+    grid-area: dot;
+}
+.box-pls {
+    grid-area: pls;
+}
+.box-mns {
+    grid-area: mns;
+}
+.box-mul {
+    grid-area: mul;
+}
+.box-div {
+    grid-area: div;
+}
+.box-c {
+    grid-area: C;
+}
+</style>
+</head>
+<body>
+<div class="calculator-box">
+        <input type="text" class="display" id="display">
+        <button class="box-7">7</button>
+        <button class="box-8">8</button>
+        <button class="box-9">9</button>
+        <button class="box-4">4</button>
+        <button class="box-5">5</button>
+        <button class="box-6">6</button>
+        <button class="box-3">3</button>
+        <button class="box-2">2</button>
+        <button class="box-1">1</button>
+        <button class="box-0">0</button>
+        <button class="box-e">=</button>
+        <button class="box-dot">.</button>
+        <button class="box-pls">+</button>
+        <button class="box-mns">-</button>
+        <button class="box-mul">*</button>
+        <button class="box-div">/</button>
+        <button class="box-c" id="clear">C</button>
+</div>
+<script src="main.js"></script>
+</body>
+</html> -->
